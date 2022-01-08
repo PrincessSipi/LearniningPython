@@ -8,7 +8,7 @@ class Children:
         self.name: str = name
         self.age: int = age
         self.height: float = height
-        print("My name is" + name + ",I am " + age + ", years old. I am " + height + "metres, tall")
+        print("My name is {} I am {} years old. I am {} metres, tall".format(self.name, self.age, self.height))
 
 
 c1 = Children("Sammy", 10, 1.2)
